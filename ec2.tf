@@ -9,7 +9,7 @@ subnet_id                   = aws_subnet.public-subnet-1.id
 associate_public_ip_address = true
 user_data = "${file("data.sh")}"
 tags = {
-Name                        = "My Public Instance"
+Name                        = "My Public Instance1"
 }
 }
 # Creating 2nd EC2 instance in Public Subnet
